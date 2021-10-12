@@ -1,0 +1,23 @@
+<idea-plugin>
+    <id>me.awildbrysen.theme-roulette</id>
+    <name>Theme Roulette</name>
+    <vendor email="awilbrysen@users.noreply.github.com" url="https://github.com/awildbrysen">awildbrysen</vendor>
+
+    <description>
+        Theme Roulette will select a randomly installed theme and apply it!
+    </description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <notificationGroup displayType="BALLOON" id="Theme Roulette Notification Group"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="ThemeRoulette" class="ThemeRoulette" text="Theme Roulette"/>
+    </actions>
+</idea-plugin>
