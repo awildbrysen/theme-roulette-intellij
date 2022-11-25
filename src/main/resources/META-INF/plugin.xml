@@ -18,6 +18,10 @@
 
     <actions>
         <!-- Add your actions here -->
-        <action id="ThemeRoulette" class="me.awildbrysen.themeroulette.ThemeRoulette" text="Theme Roulette"/>
+        <group id="awildThemeRoulette">
+            <add-to-group group-id="NavBarToolBar" anchor="last"/>
+            <add-to-group group-id="MainToolbarRight"/>
+            <action id="ThemeRoulette" class="me.awildbrysen.themeroulette.ThemeRoulette" text="Theme Roulette"/>
+        </group>
     </actions>
 </idea-plugin>
