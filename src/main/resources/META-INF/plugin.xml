@@ -18,6 +18,6 @@
 
     <actions>
         <!-- Add your actions here -->
-        <action id="ThemeRoulette" class="ThemeRoulette" text="Theme Roulette"/>
+        <action id="ThemeRoulette" class="me.awildbrysen.themeroulette.ThemeRoulette" text="Theme Roulette"/>
     </actions>
 </idea-plugin>
