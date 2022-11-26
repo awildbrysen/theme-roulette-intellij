@@ -33,5 +33,6 @@ class ThemeRoulette : DumbAwareAction(ThemeRouletteIcons.getOutline()), RightAli
     override fun update(e: AnActionEvent) {
         super.update(e)
         e.presentation.icon = ThemeRouletteIcons.getOutline()
+        e.presentation.isVisible = ThemeRouletteState.getInstance()?.showToolBarIcon ?: true
     }
 }

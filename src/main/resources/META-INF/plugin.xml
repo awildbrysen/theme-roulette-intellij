@@ -14,6 +14,8 @@
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
         <notificationGroup displayType="BALLOON" id="Theme Roulette Notification Group"/>
+        <applicationConfigurable parentId="tools" instance="me.awildbrysen.themeroulette.ThemeRouletteConfigurable"/>
+        <applicationService serviceImplementation="me.awildbrysen.themeroulette.ThemeRouletteState"/>
     </extensions>
 
     <actions>

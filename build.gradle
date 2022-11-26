@@ -5,7 +5,7 @@ plugins {
 }
 
 group 'me.awildbrysen'
-version '2.0'
+version '2.1'
 
 repositories {
     mavenCentral()
@@ -24,7 +24,9 @@ intellij {
 patchPluginXml {
     sinceBuild.set("223")
     changeNotes = """
-      I don't think I'll change anything to this, it just works  
+      Seems like I did make some changes.
+      It will show the Theme Roulette icon inside the tool bar.
+      This can be disabled in the settings under: Tools > Theme Roulette Settings
     """
 }
 test {
